@@ -26,7 +26,7 @@ router.post('/', (req, res) => {
             if (error) throw error;
             else {
                 console.log("Email Recieved")
-                res.redirect('http://localhost:3000/#contact');
+                res.redirect('https://muhammad-abdullah-tahir.netlify.app/');
             }
         }
     )
